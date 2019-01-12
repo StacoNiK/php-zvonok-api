@@ -1,0 +1,20 @@
+{
+  "name": "staconik/php-zvonok-api",
+  "description": "php api for zvonok.com",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stas Pazhoha",
+      "email": "staconik@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "zvonok\\": "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*"
+  }
+}
